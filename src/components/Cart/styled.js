@@ -22,6 +22,7 @@ export const CartIcon = styled.img`
     margin-right: 10px;
 `
 export const CartBody = styled.div``
+
 export const CartText = styled.div`
     color: #fff;
     font-size: 17px;
