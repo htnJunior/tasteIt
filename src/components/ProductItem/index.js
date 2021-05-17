@@ -19,11 +19,11 @@ export default ({data}) => {
             </ProductPhotoArea>
             <ProductInfoArea>
                 <ProductName>{data.name}</ProductName>
-                <ProductPrice>{data.price}</ProductPrice>
+                <ProductPrice>${data.price}</ProductPrice>
                 <ProductIngredients>{data.ingredients}</ProductIngredients>
             </ProductInfoArea>
             <ProductButtonArea>
-                <ProductButton src="assets/next.png" />
+                <ProductButton src="/assets/next.png" />
             </ProductButtonArea>
         </Container>
     )
